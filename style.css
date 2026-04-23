@@ -1681,4 +1681,79 @@ html, body {
     margin-top: 40px;
     justify-content: center;
   }
+
+  /* Secondary Page Components */
+  .tabbed-info, .enterprise-tabs {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .tab-sidebar {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 12px;
+    gap: 16px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .tab-sidebar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab-option {
+    flex: 0 0 auto;
+    width: 280px;
+    border-radius: 20px;
+  }
+
+  .tab-pane-img {
+    height: 300px;
+  }
+
+  .help-cta-box {
+    padding: 40px 24px !important;
+    text-align: center;
+    border-radius: 32px !important;
+  }
+
+  .help-cta-box h2, .help-cta-box h3 {
+    font-size: 2.2rem !important;
+  }
+
+  .help-cta-box img {
+    position: relative !important;
+    right: auto !important;
+    bottom: auto !important;
+    height: auto !important;
+    width: 100% !important;
+    margin-top: 32px;
+    border-radius: 20px;
+  }
+
+  .help-cta-box div {
+    max-width: 100% !important;
+  }
+
+  .visual-grid {
+    grid-template-columns: 1fr !important;
+    gap: 48px;
+  }
+
+  .visual-img-container {
+    height: 400px;
+  }
+
+  .feature-grid {
+    gap: 48px;
+  }
+
+  .feature-img img {
+    border-radius: 32px;
+  }
+
+  .brand-yellow-bg, .brand-blue-bg {
+    padding: 60px 0;
+    border-radius: 40px;
+  }
 }
