@@ -957,7 +957,7 @@ section {
 
 .how-mockup {
   position: relative;
-  z-index: 2;
+  z-index: 5;
 }
 
 .how-mockup::before {
@@ -992,6 +992,10 @@ section {
 
 .how-grid > .grid:last-child .how-card::after {
   left: -50px;
+}
+
+.how-card.no-dot::after {
+  display: none !important;
 }
 
 @media (max-width: 992px) {
@@ -1157,6 +1161,8 @@ section {
 .footer {
   padding: 80px 0 40px;
   background: #F9FBFF;
+  width: 100%;
+  margin-top: 100px;
 }
 
 .footer-grid {
@@ -1653,6 +1659,7 @@ section {
   transform: translateY(50px);
   opacity: 0;
   transition: all 0.4s ease;
+  margin: 20px;
 }
 
 .modal-overlay.active { display: flex; }
@@ -1791,5 +1798,15 @@ html, body {
 
   .nav img, .footer img {
     height: 80px;
+  }
+
+  .modal-content {
+    padding: 40px 24px;
+    border-radius: 32px;
+  }
+
+  .modal-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
   }
 }
