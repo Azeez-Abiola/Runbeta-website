@@ -133,7 +133,7 @@ section {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 2005;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
   transition: var(--transition);
