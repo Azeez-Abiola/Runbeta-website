@@ -165,13 +165,13 @@ section {
 }
 
 .nav img {
-  height: 120px;
+  height: 220px;
   width: auto;
-  max-height: 100%;
+  margin: -45px 0;
 }
 
 .footer img {
-  height: 120px;
+  height: 220px;
   width: auto;
 }
 
@@ -1830,10 +1830,6 @@ html, body {
     gap: 48px;
   }
 
-  .visual-img-container {
-    height: 400px;
-  }
-
   .feature-grid {
     gap: 48px;
   }
@@ -1848,7 +1844,8 @@ html, body {
   }
 
   .nav img, .footer img {
-    height: 80px;
+    height: 140px;
+    margin: -25px 0;
   }
 
   .modal-content {
