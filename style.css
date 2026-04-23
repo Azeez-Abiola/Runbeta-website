@@ -85,6 +85,30 @@ p { color: var(--text-muted); font-weight: 400; }
   background-color: var(--accent);
 }
 
+.btn-nav-outline {
+  background: #fff;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  padding: 10px 24px;
+  border-radius: 100px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.btn-nav-outline:hover {
+  background: var(--accent);
+}
+
+.nav-login-link {
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-right: 10px;
+}
+
 /* Section Decor */
 section {
   padding: 100px 0;
