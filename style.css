@@ -171,8 +171,9 @@ section {
 }
 
 .footer img {
-  height: 300px;
+  height: 120px;
   width: auto;
+  margin-top: -30px;
 }
 
 .nav-actions {
@@ -1172,6 +1173,7 @@ section {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 60px;
+  align-items: start;
 }
 
 .footer-logo {
@@ -1846,9 +1848,13 @@ html, body {
     border-radius: 40px;
   }
 
-  .nav img, .footer img {
+  .nav img {
     height: 180px;
     margin: -50px 0;
+  }
+
+  .footer img {
+    height: 100px;
   }
 
   .modal-content {
