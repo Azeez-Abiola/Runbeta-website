@@ -165,13 +165,13 @@ section {
 }
 
 .nav img {
-  height: 220px;
+  height: 300px;
   width: auto;
-  margin: -45px 0;
+  margin: -100px 0;
 }
 
 .footer img {
-  height: 220px;
+  height: 300px;
   width: auto;
 }
 
@@ -1161,7 +1161,10 @@ section {
 .footer {
   padding: 80px 0 40px;
   background: #F9FBFF;
-  width: 100%;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 100px;
 }
 
@@ -1844,8 +1847,8 @@ html, body {
   }
 
   .nav img, .footer img {
-    height: 140px;
-    margin: -25px 0;
+    height: 180px;
+    margin: -50px 0;
   }
 
   .modal-content {
