@@ -1762,14 +1762,27 @@ html, body {
   }
 
   .tab-pane-img {
-    height: 300px;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 24px;
+    margin-bottom: 24px;
+  }
+
+  .hero-title {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .help-cta-box {
+    grid-template-columns: 1fr !important;
     padding: 60px 24px !important;
     text-align: center;
     border-radius: 32px !important;
     margin-bottom: 60px;
+    overflow: visible !important;
   }
 
   .help-cta-box h2, .help-cta-box h3 {
