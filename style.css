@@ -42,7 +42,7 @@ p { color: var(--text-muted); font-weight: 400; }
 
 /* Layout Utilities */
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -107,6 +107,7 @@ p { color: var(--text-muted); font-weight: 400; }
   font-weight: 700;
   font-size: 0.9rem;
   margin-right: 10px;
+  white-space: nowrap;
 }
 
 /* Section Decor */
@@ -145,7 +146,7 @@ section {
 
 .nav-links {
   display: flex;
-  gap: 40px;
+  gap: 20px;
   list-style: none;
 }
 
@@ -154,16 +155,23 @@ section {
   color: var(--text-main);
   font-weight: 700;
   transition: var(--transition);
-  padding: 8px 20px;
+  padding: 8px 12px;
   border-radius: 100px;
+  white-space: nowrap;
 }
 
 .nav-links li a:hover, .nav-links li a.active {
   color: var(--primary);
 }
 
-.nav img, .footer img {
-  height: 80px;
+.nav img {
+  height: 120px;
+  width: auto;
+  max-height: 100%;
+}
+
+.footer img {
+  height: 120px;
   width: auto;
 }
 
@@ -1779,5 +1787,9 @@ html, body {
   .brand-yellow-bg, .brand-blue-bg {
     padding: 60px 0;
     border-radius: 40px;
+  }
+
+  .nav img, .footer img {
+    height: 80px;
   }
 }
