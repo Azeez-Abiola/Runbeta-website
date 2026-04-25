@@ -777,13 +777,13 @@ section {
 
 .card-profile {
   top: -20px;
-  left: -40px;
+  left: -80px;
   width: 240px;
 }
 
 .card-payment {
   bottom: -20px;
-  right: -20px;
+  right: -40px;
   width: 200px;
   display: flex;
   align-items: center;
