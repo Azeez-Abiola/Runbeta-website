@@ -651,10 +651,15 @@ section {
 
 .help-cta-box img {
   position: absolute;
-  right: 0;
   bottom: 0;
-  height: 100%;
-  object-fit: contain;
+  right: -20px;
+  height: 120%;
+  z-index: 0;
+  pointer-events: none;
+  object-fit: cover;
+  border-radius: 0 0 32px 0;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 40%);
+  mask-image: linear-gradient(to right, transparent, black 40%);
 }
 
 /* Testimonial Carousel (Restored) */
@@ -777,7 +782,7 @@ section {
 
 .card-profile {
   top: -20px;
-  left: -80px;
+  left: -120px;
   width: 240px;
 }
 
@@ -1774,6 +1779,8 @@ html, body {
     object-position: center;
     border-radius: 24px;
     margin-bottom: 24px;
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
   }
 
   .hero-title {
