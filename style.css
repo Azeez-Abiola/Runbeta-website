@@ -622,6 +622,25 @@ section {
   border-radius: 50%;
 }
 
+/* Hero App Labels */
+.hero-app-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #F4F7FF;
+  padding: 6px 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.cta-banner .hero-app-label {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
 /* Custom Blue Check */
 .blue-check {
   display: inline-flex;
@@ -781,14 +800,14 @@ section {
 }
 
 .card-profile {
-  top: -20px;
-  left: -120px;
+  top: -40px;
+  left: max(-120px, calc(684px - 50vw));
   width: 240px;
 }
 
 .card-payment {
-  bottom: -20px;
-  right: -40px;
+  bottom: -40px;
+  right: -60px;
   width: 200px;
   display: flex;
   align-items: center;
